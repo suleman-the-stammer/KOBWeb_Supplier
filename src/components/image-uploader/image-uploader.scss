@@ -1,0 +1,24 @@
+.avatar-uploader {
+    .selected-image {
+        width: 80%;
+        object-fit: cover;
+    }
+}
+
+.ant-upload-wrapper.ant-upload-picture-circle-wrapper .ant-upload.ant-upload-select {
+    border: none !important;
+}
+
+.ant-upload {
+    font-size: 60px;
+    color: rgb(223, 221, 221);
+
+    svg {
+        display: flex !important;
+    }
+}
+
+.ant-upload-wrapper.ant-upload-picture-circle-wrapper {
+    display: flex !important;
+    justify-content: center !important;
+}

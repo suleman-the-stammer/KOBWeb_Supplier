@@ -1,0 +1,15 @@
+.login-control-buttons {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    .or {
+        text-align: center;
+    }
+
+    // .primary-button,
+    // .secondary-button {
+    //     width: 100% !important;
+    // }
+}

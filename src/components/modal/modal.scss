@@ -1,0 +1,39 @@
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 23px;
+
+    .modal-sub-heading {
+        color: #000000;
+        margin-bottom: 3px;
+        font-family: "Roboto";
+    }
+
+    .send-otp {
+        color: #000;
+        font-family: "Roboto";
+        font-weight: 400;
+    }
+}
+
+.modal-title {
+    padding: 15px 24px;
+    background-color: #F1F3F6;
+    border-bottom: 1px solid rgb(216, 210, 210);
+}
+
+.custom-Otp-iput {
+    div {
+        padding-top: 8px;
+        display: flex;
+        justify-content: space-between;
+
+        input {
+            height: 65px;
+            width: 60px !important;
+            font-size: 25px;
+            border: 1px solid rgb(216, 210, 210);
+        }
+    }
+
+}

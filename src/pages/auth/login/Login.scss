@@ -1,0 +1,55 @@
+.login-container {
+  height: 100vh;
+  width: -webkit-fill-available;
+  background: url("../../../../public/images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  .login-form {
+    padding-top: 60px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .form {
+      width: 550px;
+      background-color: #fff;
+      padding: 2rem 2rem;
+
+      .ant-form-item .ant-form-item-label>label {
+        font-size: 16px !important;
+      }
+
+      .heading {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 120%;
+      }
+
+      .flex-form-fields {
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .forgot-username {
+        padding-top: 2px;
+        width: 100%;
+        font-size: 12px;
+        text-align: end;
+        color: #254FE2;
+      }
+
+      .register {
+        padding-top: .3rem;
+        font-size: 14px;
+        text-align: center;
+      }
+    }
+  }
+
+}

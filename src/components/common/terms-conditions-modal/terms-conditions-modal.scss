@@ -1,0 +1,33 @@
+.flex-terms-conditions-modal {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0px 5px;
+
+    p {
+        padding: 5px 24px;
+        max-height: 110px;
+        overflow-y: scroll;
+        text-align: justify;
+    }
+
+
+    .agreed {
+        padding: 0px 24px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        // justify-content: center;
+    }
+
+    input {
+        height: 18px;
+        width: 18px;
+    }
+
+}
+
+.modal-title {
+    font-size: 24px !important;
+}

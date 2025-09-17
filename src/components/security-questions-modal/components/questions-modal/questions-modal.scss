@@ -1,0 +1,24 @@
+.questioning-form {
+
+    .flex-questioning-modal {
+        max-height: 400px;
+        overflow-y: scroll;
+        padding: 8px 23px 8px 23px;
+
+        .security-questions-field,
+        .security-answers-field {
+            margin-bottom: 4px !important;
+        }
+    }
+    .no-data{
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    .bottom-buttons {
+        padding-bottom: 16px;
+        border-top: 1px solid #d5d0d0;
+        background-color: #F1F3F6;
+
+    }
+}

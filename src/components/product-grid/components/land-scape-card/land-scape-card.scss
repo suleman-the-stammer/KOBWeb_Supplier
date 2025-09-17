@@ -1,0 +1,131 @@
+.product-card {
+    // width: 80%;
+    margin: auto;
+    margin-top: 3px;
+    padding: 5px;
+    display: flex;
+    gap: 15px;
+    border: 1px solid #e1e1e1;
+
+    .available {
+        position: absolute;
+        width: 200px;
+        background: rgba(255, 0, 0, 0.35);
+        color: #000;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        z-index: 5;
+        transform: rotate(317deg);
+        padding: 6px 0;
+        left: -42px;
+        top: 29px;
+
+    }
+
+    .prod-image {
+        width: 400px;
+        margin: auto auto;
+
+        img {
+            margin-left: 20px;
+            width: 160px;
+            height: 150px;
+            object-fit: contain;
+        }
+    }
+
+    .prod-detail {
+        display: flex;
+        flex-direction: column;
+
+        .card-header {
+            width: 100%;
+            display: flex;
+            position: relative;
+            justify-content: space-between;
+
+
+            .left {
+                margin-top: 10px;
+                display: flex;
+                gap: 10px;
+                height: 20px;
+
+                .date {
+                    margin-left: 2px;
+                    font-size: 14px;
+                    background-color: #f6f6f6;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+
+            .static-image {
+                height: 50px;
+                width: 50px;
+                margin-right: -6px;
+                margin-top: -6px;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+
+        .flex-card-content {
+            display: flex;
+            gap: 30px;
+
+            .card-content {
+                .title {
+                    padding-top: 10px;
+                    overflow: hidden;
+                    color: #000;
+                    text-overflow: ellipsis;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 18px;
+
+                    a {
+                        color: #000;
+
+                        &:hover {
+                            text-decoration: underline;
+                            color: #254fe2;
+                        }
+                    }
+                }
+
+                .description {
+                    padding-top: 10px;
+                    color: #4C4C4C;
+                }
+            }
+
+            .flex-prod-prices {
+                display: flex;
+                flex-direction: column;
+                gap: 2px;
+
+                .price,
+                .panel {
+                    width: 120px;
+                    text-align: center;
+                    font-size: 16px;
+                    color: var(--dark);
+                    background-color: #99a0af;
+                    padding: 5px 0px;
+                }
+
+                .price {
+                    background-color: var(--light-grey);
+                }
+            }
+        }
+    }
+
+}

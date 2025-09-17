@@ -1,0 +1,112 @@
+.page-header-container {
+  position: fixed;
+  top: 0;
+  width: -webkit-fill-available;
+  background-color: #f4f5f9;
+  background: var(--light-grey);
+  z-index: 10;
+
+  .top-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 14px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+
+    .flex-heading {
+      display: flex;
+      align-items: center;
+      border: 1px solid var(--light-grey);
+
+      .back-icon {
+        margin-left: -13px;
+        padding-top: 13px;
+
+        .icon {
+          font-size: 30px;
+          color: grey;
+        }
+      }
+
+      .title {
+        color: #364a63;
+        font-size: 32px;
+        margin-top: -3px;
+        font-family: "Poppins";
+      }
+
+      .sub-title {
+        color: #8094ae;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+  }
+
+  .bottom-page-header {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px 5px 15px;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+
+    .product-layouts {
+      display: flex;
+      gap: 3rem;
+      margin-right: 3rem;
+
+      .icon {
+        font-size: 14px;
+        color: rgb(105, 104, 104);
+      }
+    }
+
+    // .input {
+    //   border: 1px solid #dbdfea;
+    //   background: #fff;
+    //   position: relative;
+    //   display: flex;
+    //   padding: 9px 10px;
+    //   justify-content: center;
+    //   align-items: center;
+    //   gap: 10px;
+
+    //   input {
+    //     width: 330px;
+    //   }
+
+    //   .icon {
+    //     width: 18px;
+    //     height: 18px;
+    //   }
+    // }
+
+    // .filter {
+    //   border: 1px solid #dbdfea;
+    //   background: #fff;
+    //   display: flex;
+    //   padding: 9px 10px;
+    //   justify-content: center;
+    //   align-items: center;
+    //   gap: 10px;
+    // }
+
+    // .arrow {
+    //   display: flex;
+    //   padding: 9px 10px;
+    //   justify-content: center;
+    //   align-items: center;
+    //   gap: 10px;
+    //   border: 1px solid #dbdfea;
+    //   background: #fff;
+    // }
+  }
+
+  .ant-popover .ant-popover-inner {
+    padding: 12 0px !important;
+  }
+}

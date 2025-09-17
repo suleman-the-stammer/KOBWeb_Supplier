@@ -1,0 +1,26 @@
+.input-container {
+  border: 1px solid #dbdfea;
+  background: #fff;
+  position: relative;
+  display: flex;
+  padding: 9px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  input {
+    width: 630px;
+    font-size: 14px;
+    font-family: light-font !important;
+  }
+
+  .icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  ::placeholder {
+    color: grey;
+    font-family: "Roboto";
+  }
+}

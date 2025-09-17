@@ -1,0 +1,123 @@
+.product-detail-container {
+  margin-top: 90px;
+
+  .flex-detail-container {
+    display: flex;
+    gap: 1.5rem;
+    margin: 0px 0px 0px 24px;
+    background-color: #fff;
+
+    .prod-image-container {
+      max-width: 45%;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+
+      .mobile-section {
+        border: 1px solid #e1e1e1;
+        display: flex;
+        flex-direction: column;
+
+        .mobile-header {
+          padding: 18px;
+          padding-bottom: 0px;
+          display: flex;
+          justify-content: space-between;
+
+          .date {
+            color: #000;
+            text-align: center;
+            font-size: 14px;
+            padding: 0 2px;
+            background-color: #f2f3f7;
+          }
+
+          .image {
+            margin-top: -10px;
+          }
+
+        }
+
+        .mobile-slider {
+          padding-bottom: 20px;
+          height: 330px;
+          object-fit: contain;
+          margin: auto;
+
+          img {
+            height: 100%;
+            width: 100%;
+          }
+        }
+
+        .mobile-footer {
+          display: flex;
+          border-top: 1px solid #e1e1e1;
+
+          .border {
+            border-left: 1px solid #e1e1e1;
+          }
+
+          .buyers,
+          .quantity {
+            width: 50%;
+            padding: 5px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .heading {
+              color: #8091a5;
+              font-size: 15px;
+            }
+
+            .count {
+              color: black;
+              font-size: 20px;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+
+      .description-section {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        .heading {
+          color: #000;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+
+        .description {
+          color: #707070;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+    }
+  }
+
+}
+
+
+.title {
+  color: #364a63;
+  font-size: 32px;
+  font-style: normal;
+  line-height: normal;
+  margin-top: -3px;
+}
+
+.sub-title {
+  color: #8094ae;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: normal;
+}

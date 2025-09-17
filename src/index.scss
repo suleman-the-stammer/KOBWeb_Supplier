@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color: #101924;
+  --secondary-color: #254FE2;
+  --light-grey: #f4f5f9;
+  --light: #fff;
+  --dark: #000000;
+}
+
+// ************** Scroll Bar **************  
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* ************ Source Sans Pro Fonts ************** */
+@font-face {
+  font-family: light-font;
+  src: url('Assets/Fonts/source-sans-pro/SourceSansPro-Light.otf');
+}
+
+@font-face {
+  font-family: regular-font;
+  src: url('Assets/Fonts/source-sans-pro/SourceSansPro-Regular.otf');
+}
+
+@font-face {
+  font-family: bold-font;
+  src: url('Assets/Fonts/source-sans-pro/SourceSansPro-Bold.otf');
+}
+
+@font-face {
+  font-family: cursive-dark-font;
+  src: url('Assets/Fonts/source-sans-pro/SourceSansPro-BlackIt.otf');
+}
+
+@font-face {
+  font-family: cursive-light-font;
+  src: url('fonts/source-sans-pro/SourceSansPro-LightIt.otf');
+}
+
+//  ************** CSS Classes ***************
+.flex-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.modal-footer-buttons {
+  width: 100%;
+  display: flex;
+  gap: .3rem;
+  // padding: 15px 0;
+  padding: 15px 0px 15px 0px;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-top: none;
+  background-color: #F1F3F6;
+  border-top: 1px solid rgb(216, 210, 210);
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.bottom-buttons {
+  display: flex;
+  gap: 1rem;
+  padding-top: 1rem;
+  justify-content: center;
+}
+
+.flex-title {
+  .title {
+    color: #364a63;
+    font-size: 31px;
+    margin-top: -9px;
+    font-weight: 400;
+    font-family: 'poppins';
+  }
+
+  .sub-title {
+    color: #8094ae;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}

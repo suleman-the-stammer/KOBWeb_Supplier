@@ -1,0 +1,18 @@
+.flex-answering-fields{
+    padding: 15px 23px;
+    .next-button{
+        padding-top: 10px;
+        text-align: end;
+    }
+    .answer-descripition{
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+       .answer-heading{
+            font-size: 20px;
+       } 
+    }
+    .question-field{
+        padding-top: 10px;
+    }
+}

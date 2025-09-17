@@ -1,0 +1,20 @@
+.page-heading-container {
+    width: 100%;
+    padding: .5rem 1.5rem;
+    // background-color: #fff;
+    background-color: #F1F3F6;
+    border-bottom: 1px solid #d5d0d0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    .upper-title {
+        margin-bottom: -8px;
+    }
+    
+    .title {
+        margin-left: -1.5px;
+    }
+
+    .bottom-title {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,56 @@
+.filter-section-container {
+
+    // padding: 10px;
+    .sections-heading {
+        margin: 10px 0px;
+        padding: 4px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #f6f6f6;
+        font-size: 16px;
+    }
+
+    .customer-reviews {
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .rate {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .ant-rate-star-second {
+                font-size: 15px;
+            }
+
+            .rating {
+                padding: 10px;
+                color: var(--secondary-color) !important;
+            }
+        }
+    }
+
+    .filter-buttons {
+        display: flex;
+        gap: 5px;
+        flex-wrap: wrap;
+        margin-top: 5px;
+    }
+
+    .pricing-range {
+        margin-top: 10px;
+
+        .flex-ranges {
+            margin-top: 5px;
+            display: flex;
+            gap: 1rem;
+
+            .range {
+                font-size: 16px;
+            }
+        }
+    }
+}

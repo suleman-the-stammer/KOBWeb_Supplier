@@ -1,0 +1,64 @@
+.filter-box {
+  max-width: 315px;
+  display: flex;
+  flex-direction: column;
+
+  .filter-heading {
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    font-family: Roboto;
+    border-bottom: 1px solid rgba(210, 204, 204, 0.34);
+  }
+  .flex-filter {
+    display: flex;
+    flex-direction: column;
+    .filter {
+      padding: 4px 0;
+      border-bottom: 1px solid rgba(210, 204, 204, 0.34);
+      .heading {
+        color: #6e6b7b;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: Roboto;
+        line-height: normal;
+      }
+      .flex-box {
+        padding: 4px 0;
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        flex-wrap: wrap;
+        .box {
+          display: flex;
+          gap: 7px;
+          .name {
+            color: #696969;
+            font-family: Roboto;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+      }
+    }
+  }
+  .bottom-button {
+    padding-top: 10px;
+    gap: 10px;
+    .reset-button {
+      height: 25px;
+      width: 90px;
+      font-size: 12px;
+      background-color: #c0c8d2;
+      color: #fff;
+    }
+    .apply-button {
+      height: 25px;
+      font-size: 12px;
+      color: #fff;
+      width: 90px;
+    }
+  }
+}

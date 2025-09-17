@@ -1,0 +1,51 @@
+.filter-container {
+    width: 500px;
+    border: 1px solid #e1e1e1;
+    height: -webkit-fill-available;
+
+    .ant-btn {
+        font-size: 16px !important;
+        padding: 0px 10px !important;
+        min-width: 0px !important;
+    }
+
+    .filter-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #cfcece;
+        border-bottom: 1px solid #e1e1e1;
+        padding: 10px 10px;
+
+        .header-heading {
+            font-size: 18px;
+            color: var(--dark);
+        }
+
+        a {
+            font-size: 14px;
+            color: var(--secondary-color);
+            text-decoration: underline;
+        }
+
+    }
+
+    .filter-body {
+        padding: 0px 10px;
+
+        // .price-rang {
+        //     margin-top: 10px;
+
+        //     .ranges {
+        //         margin-top: 5px;
+        //         display: flex;
+        //         gap: 1rem;
+
+        //         .rang {
+        //             font-size: 16px;
+        //         }
+        //     }
+        // }
+    }
+
+}

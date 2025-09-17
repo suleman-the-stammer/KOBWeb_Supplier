@@ -1,0 +1,176 @@
+.sidebar-container {
+  display: flex;
+  max-height: 100vh;
+
+  .sider {
+    height: 100vh;
+    display: grid;
+    overflow: hidden;
+    transition: all 0.3s;
+    grid-template-rows: auto 45px;
+    background-color: var(--primary-color);
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2);
+
+    .sider-menu {
+      padding-top: 10px;
+      height: 100% !important;
+    }
+
+    .sider-header {
+      height: 60px;
+      width: 100%;
+      display: inline-flex;
+      padding: 16px;
+      align-items: center;
+      gap: 16px;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+
+      .toggle-menu {
+        transition: 0.5s;
+        cursor: pointer;
+        height: 20px;
+        width: 20px;
+
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+
+      .fix-collapse {
+        margin-left: 16px;
+      }
+
+      .app-logo {
+        width: 100px;
+        height: 30px;
+        transition: 0.5s;
+
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+
+      .hidden {
+        opacity: 0;
+        pointer-events: none;
+      }
+    }
+
+    .icon {
+      width: 22px;
+      height: 22px;
+      color: red;
+    }
+
+
+    // ************ ANT-Design SideBar ************
+
+    .ant-menu-root {
+      border: none;
+      overflow-y: scroll;
+      color: red;
+      background-color: inherit;
+      height: calc(100vh - 178px);
+    }
+
+    .ant-menu .ant-menu-submenu-disabled,
+    .ant-menu-item-disabled {
+      color: red !important;
+    }
+
+    .ant-menu-title-content {
+      font-size: 16px;
+      font-family: "Roboto" !important;
+      color: red !important;
+    }
+
+    .ant-menu-sub {
+      padding-left: 22px !important;
+
+      .ant-menu-title-content {
+        font-size: 14px !important;
+        font-weight: 400;
+        color: red !important;
+      }
+    }
+
+    .ant-menu-item .ant-menu-item-only-child {
+      font-size: 14px !important;
+      margin-left: 31px !important;
+    }
+
+    // ************** Selected Tab ***************
+    .ant-menu-item-selected {
+      color: #fff !important;
+      background-color: transparent !important;
+
+      .ant-menu-title-content,
+      .icon {
+        color: #fff !important;
+      }
+    }
+
+    .ant-menu-light .ant-menu-submenu-selected>.ant-menu-submenu-title {
+      color: #fff !important;
+    }
+
+    // ************** Tab Height ***************
+    .ant-menu-submenu>.ant-menu-submenu-title,
+    .ant-menu-vertical>.ant-menu-item {
+      height: 32px !important;
+      margin-block: 2px;
+    }
+
+    .ant-menu-item {
+      height: 32px !important;
+    }
+
+    .ant-menu-item-only-child {
+      height: 26px !important;
+      color: red !important;
+    }
+
+    .ant-menu-inline .ant-menu-item {
+      margin-block: 2px !important;
+      width: calc(100% - 16px) !important;
+    }
+
+    // ************** Tab Hover ***************
+
+    .ant-menu-light:not(.ant-menu-horizontal) .ant-menu-submenu-title:hover,
+    .ant-menu-light>.ant-menu:not(.ant-menu-horizontal) .ant-menu-submenu-title:hover {
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.06);
+
+      .ant-menu-title-content,
+      .icon {
+        color: #fff !important;
+      }
+    }
+
+    .ant-menu-item:not(.ant-menu-item-selected):hover {
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.06);
+
+      .ant-menu-title-content,
+      .icon {
+        color: #fff !important;
+      }
+    }
+
+    .ant-menu-submenu-selected>.ant-menu-submenu-title {
+      color: #fff !important;
+    }
+
+  }
+
+  .right-pages {
+    width: 100%;
+    overflow-y: scroll;
+  }
+  .sider-menu::-webkit-scrollbar {
+    display: none;
+  }
+}
